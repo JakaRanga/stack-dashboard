@@ -1,0 +1,17 @@
+<div *ngIf="services.length > 0" class="sd-cp-container">
+
+    <div *ngFor="let service of services" 
+        class="sd-cp-service"
+        (click)="openService(service)"
+        [ngStyle]="{'background-color': service.backgroundColor, 'color': service.color}"
+        >
+        
+        <div class="sd-cp-tile-title">
+            {{service.title }}
+        </div>
+        <div>
+            {{ service.description }}
+        </div>
+    </div>
+
+</div>

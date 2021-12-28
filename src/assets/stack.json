@@ -1,0 +1,36 @@
+{
+    "services": [
+        {
+            "title": "P",
+            "description": "Portainer",
+            "url": "https://port.jakaranga.com",
+            "backgroundColor": "#333",
+            "color": "#ffffff",
+            "index": 1
+        },
+        {
+            "title": "NC",
+            "description": "Nextcloud",
+            "url": "https://nc.jakaranga.com",
+            "backgroundColor": "#0082c9",
+            "color": "#ffffff",
+            "index": 2
+        },
+        {
+            "title": "NG",
+            "description": "Nginx",
+            "url": "https://nginx.jakaranga.com",
+            "backgroundColor": "#ffb347",
+            "color": "#ffffff",
+            "index": 3
+        },
+        {
+            "title": "ME",
+            "description": "Who am I ?",
+            "url": "https://cv.jakaranga.com",
+            "backgroundColor": "#ff6961",
+            "color": "#ffffff",
+            "index": 4
+        }
+    ]
+}
